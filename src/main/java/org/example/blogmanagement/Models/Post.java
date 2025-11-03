@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document(collection = "Post")
+@Document(collection = "post")
 @NoArgsConstructor
 @AllArgsConstructor
 
