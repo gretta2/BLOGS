@@ -19,4 +19,6 @@ public interface UserService {
 
     void deleteUser(Long id);
     Page<UserDto> getAllUsersPaginated(int pageNo, int pageSize, String sortBy, String sortDir);
+
+    Object loadUserByUsername(String username);
 }
